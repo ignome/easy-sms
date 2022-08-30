@@ -26,7 +26,7 @@ class SubmailGateway extends Gateway
 {
     use HasHttpRequest;
 
-    const ENDPOINT_TEMPLATE = 'https://api.mysubmail.com/%s.%s';
+    const ENDPOINT_TEMPLATE = 'http://api.mysubmail.com/%s.%s';
 
     const ENDPOINT_FORMAT = 'json';
 
